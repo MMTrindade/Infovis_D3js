@@ -1,0 +1,122 @@
+:root {
+  --header-size: 5rem;
+  --CR: #D90000;
+  --EN: #FF8400;
+  --VU: #FFD740;
+  --NT: #7AD600;
+  --NT: #7AD600;
+  --LC: #006400;
+  --EX: #631b1b;
+  --Unknown: #808080;
+}
+
+@font-face {
+  font-family: Flaviotte;
+  src: url('../library/fonts/Flaviotte.otf') format("opentype");
+}
+
+.ex-color { color: var(--EX) }
+.cr-color { color: var(--CR) }
+.en-color { color: var(--EN) }
+.vu-color { color: var(--VU) }
+.nt-color { color: var(--NT) }
+.lc-color { color: var(--LC) }
+
+.ex-bg-color { background-color: var(--EX) }
+.cr-bg-color { background-color: var(--CR) }
+.en-bg-color { background-color: var(--EN) }
+.vu-bg-color { background-color: var(--VU) }
+.nt-bg-color { background-color: var(--NT) }
+.lc-bg-color { background-color: var(--LC) }
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+  background-attachment: scroll;
+}
+
+.category-div {
+  border-radius: 0.5rem;
+  padding: 0.25rem;
+  margin: 0.25rem;
+  font-size: large;
+  font-weight: bold;
+  background-color: rgb(255, 255, 255);
+  border: 3px solid rgb(1, 22, 107);
+  box-shadow: 1px 1px 12px 1px rgba(0, 59, 118, 0.798);
+}
+
+.page-content {
+  margin-top: var(--header-size);
+}
+
+.demo-bg {
+  background-color:rgb(179, 185, 243);
+  opacity: 0.2;
+  position: fixed;
+  left: 0;
+  top: var(--header-size);   
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-attachment: fixed;
+}
+
+.background-layout > img {
+  opacity: 0.1;
+  width: 100%;
+}
+
+.headline-text {
+  margin-top: 0.25rem;
+  font-family: "Flaviotte";
+  color: #FFCC00;
+}
+
+.headline {
+  position: fixed;
+  background-color: #003399;
+  width: 100%;
+  height: var(--header-size);
+  top: 0;
+  border: 1px solid black;
+  box-shadow: 5px 5px 2px 1px rgba(0, 0, 255, .2);
+}
+
+.chart-container {
+  height: fit-content;
+  width: fit-content;
+  background-color: rgb(232, 232, 232);
+  padding: 2rem;
+  border-radius: 1rem;
+  border: 3px solid #003399;
+}
+
+.button {
+  border-radius: 0.5rem;
+  border: 1px solid black;
+  margin: 0.25rem;
+}
+
+
+.button:hover {
+  filter: brightness(85%);
+  border-radius: 0.5rem;
+  border: 1px solid black;
+  margin: 0.25rem;
+}
+
+
+.qt-text {
+  font-family: Arial, Helvetica, sans-serif !important;
+  fill: grey;
+}
+
+.tooltip-text {
+  font-size:small;
+  color: black;
+  font-weight: 900;
+}
