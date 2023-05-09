@@ -2,7 +2,7 @@
 
 Project about threatened european birds groups that applies Information Visualization techniques and dynamic graphics using the Javascript library D3.JS to synthesize and enable analysis of big databases information.
 
-#Project uses HTML, CSS, Javascript( and D3.js lib). To run>
+#Project built with HTML, CSS, Javascript( and D3.js lib)>
 
 Run server in your shell:
 
